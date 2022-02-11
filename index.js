@@ -1,11 +1,23 @@
+
 function isPalindrome(word) {
   // Write your algorithm here
+  let newWord = word.split('').reverse().join('');
+  if (word == newWord){
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 /* 
   Add your pseudocode here
+  write a fuction, that takes in 1 argument
+  check if argument is a palindrone
+  return false if not palindrone
 */
-
+// 
+  
 /*
   Add written explanation of your solution here
 */
