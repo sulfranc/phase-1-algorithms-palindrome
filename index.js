@@ -3,12 +3,15 @@ function isPalindrome(word) {
   // Write your algorithm here
   let newWord = word.split('').reverse().join('');
   if (word == newWord){
+    console.log(true)
     return true
   }
   else {
+    console.log(true)
     return false
   }
 }
+
 
 /* 
   Add your pseudocode here
